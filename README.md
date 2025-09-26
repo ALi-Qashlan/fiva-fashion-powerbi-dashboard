@@ -1,5 +1,4 @@
 # Fiva-Fashion-Powerbi-Dashboard
-A 3-page Power BI dashboard analyzing sales, customers, and product performance for Fiva Fashion, with lessons learned in data modeling and design.
 I built this 3-page Power BI dashboard to analyze sales performance, customer behavior, and product trends for Fiva Fashion.
 Sales Overview: KPIs (revenue, profit, orders, AOV) and sales trends.
 Customer Insights: Demographics, spending patterns, and top countries.
