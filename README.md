@@ -1,10 +1,47 @@
 # Fiva-Fashion-Powerbi-Dashboard
-I built this 3-page Power BI dashboard to analyze sales performance, customer behavior, and product trends for Fiva Fashion.
-Sales Overview: KPIs (revenue, profit, orders, AOV) and sales trends.
-Customer Insights: Demographics, spending patterns, and top country by revenue.
-Product Insights & Drillthrough: Best-performing categories and customer-level order details.
-Challenges solved:
-Attempted to connect the Campaigns table to Sales Items, but this caused many-to-many issues. I decided to exclude campaigns and focus on clean, reliable sales and customer insights.
-Adjusted analysis for a short 3-month dataset.
-Removed redundant columns for a cleaner model.
-The result: an interactive dashboard that highlights performance drivers and supports smarter decisions.
+# 🛍️ European Fashion Store Sales Dashboard  
+
+## 📊 Report Pages  
+
+### **Page 1 – Sales Overview**  
+Revenue, profit, orders, AOV, and overall sales performance.  
+
+![Sales Overview](./Screenshot%202025-09-25%20220735.png)  
+
+---
+
+### **Page 2 – Customer & Product Insights**  
+KPIs include **unique customers, average revenue per customer, top country by revenue, and top customer by revenue**.  
+Also shows customer demographics, spend distribution, and top-selling categories.  
+
+![Customer & Product Insights](./Screenshot%202025-09-25%20220804.png)  
+
+---
+
+### **Page 3 – Drillthrough (Customer Profile)**  
+Detailed breakdown of individual customer trends, revenue, and order history.  
+
+![Customer Profile Drillthrough](./Screenshot%202025-09-25%20220857.png)  
+
+---
+
+## 🛠 Tools & Tech  
+- **Power BI** – data modeling, DAX, Power Query  
+- **GitHub** – version control & deployment  
+- **Dataset** – European Fashion Store (Kaggle)  
+
+---
+
+## 💡 Mistakes & Fixes (Learning Points)  
+- Tried linking Campaigns table directly to Sales Items → caused many-to-many errors, so I removed that relationship.  
+- Dataset covered only 3 months → focused analysis on **short-term performance trends** instead of long-term forecasting.  
+- Removed low-value columns (e.g., Gender, Brand) → improved clarity in data modeling.  
+
+---
+
+## 🚀 Key Takeaways  
+This project strengthened my skills in:  
+- Cleaning and transforming raw data.  
+- Building **interactive dashboards** for different audiences.  
+- Troubleshooting common modeling issues (like many-to-many relationships).  
+- Designing visuals that balance **clarity and storytelling**.
