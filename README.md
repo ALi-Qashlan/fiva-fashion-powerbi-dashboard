@@ -1,4 +1,4 @@
-# Fiva-Fashion-Powerbi-Dashboard
+# Tiva-Fashion-Powerbi-Dashboard
 # 🛍️ European Fashion Store Sales Dashboard  
 
 ## 📊 Report Pages  
